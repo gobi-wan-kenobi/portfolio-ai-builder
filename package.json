@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-ai-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A portable self-paced course on company problem solving and portfolio AI reuse.",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check site/app.js && node --check site/state.js && node --check site/course-data.js && npm test",
+    "dev": "node scripts/serve.cjs"
+  },
+  "engines": { "node": ">=22" }
+}

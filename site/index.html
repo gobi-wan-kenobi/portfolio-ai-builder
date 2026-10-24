@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="An independent, practical course on diagnosing company problems and building reusable AI capabilities across a portfolio.">
+ <meta name="theme-color" content="#202b29"><title>Portfolio AI Builder</title>
+ <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="styles.css">
+ <script defer src="config.js"></script><script defer src="course-data.js"></script><script defer src="state.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+ <a href="#main" class="skip">Skip to content</a>
+ <aside class="sidebar" id="sidebar" aria-label="Course navigation"></aside>
+ <div class="shell"><header class="topbar"><button class="icon-button menu-button" id="menu" aria-label="Open course navigation">☰</button><div id="breadcrumb">Your learning workspace</div><div class="top-actions"><span class="local-label"><i></i> Progress on this device</span><button class="button small ghost" id="backup">Export progress</button></div></header>
+ <div id="storage-warning" role="alert" hidden></div><main id="main" tabindex="-1"></main>
+ <footer class="footer"><span>Portfolio AI Builder <span class="muted">/ Independent learning course</span></span><a href="#about">How this works</a></footer></div>
+ <dialog id="settings-dialog" aria-labelledby="settings-title"><form id="settings-form"><div class="dialog-head"><h2 id="settings-title">Your learning workspace</h2><button type="button" data-close-dialog class="icon-button" aria-label="Close settings">×</button></div><p>Connect the private repository where you keep assignments and progress exports. Submission links open GitHub; this site never requests a GitHub token.</p><label for="learning-repo">Learning repository</label><input id="learning-repo" placeholder="your-name/portfolio-ai-learning" autocomplete="off"><p class="hint">Use owner/repository. You need access to the repository and its assignment template.</p><p id="settings-error" class="error" role="alert"></p><button class="button primary" type="submit">Save workspace</button></form></dialog>
+ <dialog id="export-dialog" aria-labelledby="export-title"><div class="dialog-head"><h2 id="export-title">Export your work</h2><button type="button" data-close-export class="icon-button" aria-label="Close export">×</button></div><p>Review the file, then save it to your device. Add it to your private learning repository for durable history.</p><textarea id="export-preview" readonly aria-label="File contents" style="width:100%;height:260px;font:11px/1.6 ui-monospace,monospace;padding:13px;border:1px solid #ccd6c4;border-radius:6px"></textarea><div class="actions" style="margin-top:18px"><a id="export-save" class="button primary" download>Save file ↓</a><button type="button" class="button" data-copy-export>Copy contents</button></div></dialog>
+ <input type="file" id="import-file" accept="application/json,.json" hidden><div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body></html>
