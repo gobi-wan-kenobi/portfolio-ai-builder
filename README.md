@@ -4,7 +4,8 @@ An independent self-paced course on diagnosing company problems and building AI 
 
 ## Start learning
 
-- Open the published course website or preview locally.
+- Open the [published course](https://gobi-wan-kenobi.github.io/portfolio-ai-builder/) or preview locally.
+- Your [private learning workspace](https://github.com/gobi-wan-kenobi/portfolio-ai-learning) is already configured for assignment submissions and progress exports.
 - Work through the eight modules in order. Budget about 32 hours, including setup and a final demo.
 - Use [INSTRUCTOR.md](INSTRUCTOR.md) with a tutor or repository-capable agent.
 - The full source is [COURSE.md](COURSE.md). The project contract is [CAPSTONE.md](CAPSTONE.md).
@@ -52,4 +53,4 @@ There are no analytics, external fonts, model calls, or built-in tutor chat. Res
 
 ## Verification
 
-`npm run check` runs syntax checks and unit tests for curriculum completeness, progress validation, completion rules, assignment export, and GitHub URL boundaries. Browser QA covers navigation, quizzes, drafts, exports/imports, and responsive layout. Live GitHub creation, submissions, and Pages deployment must be verified separately.
+`npm run check` runs syntax checks and unit tests for curriculum completeness, progress validation, completion rules, assignment export, and GitHub URL boundaries. Browser QA covers navigation, quizzes, drafts, exports/imports, and responsive layout. Repository creation, private workspace visibility, successful Pages deployment, live lesson navigation, and progress-file download were verified on 2026-10-24. No real assignment has been submitted or graded.

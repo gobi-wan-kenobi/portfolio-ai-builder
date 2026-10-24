@@ -1,6 +1,11 @@
-# Deployment handoff
+# Deployment
 
-The course is built and tested locally. Publishing requires an authenticated GitHub session with permission to create repositories and configure Pages. The GitHub connector in this session can write existing repositories but does not expose repository creation or Pages configuration.
+Published on 2026-10-24 using the official GitHub CLI after device authorization.
+
+- Course: https://gobi-wan-kenobi.github.io/portfolio-ai-builder/
+- Public source: https://github.com/gobi-wan-kenobi/portfolio-ai-builder
+- Private learning: https://github.com/gobi-wan-kenobi/portfolio-ai-learning
+- Successful deployment: https://github.com/gobi-wan-kenobi/portfolio-ai-builder/actions/runs/40116675862
 
 ## Target layout
 
@@ -32,6 +37,9 @@ The script creates fresh repositories and stops if either target already exists.
 
 - Curriculum, assignment, progress-validation, completion, URL-boundary, and export-content unit tests.
 - Desktop browser navigation, practice feedback, draft persistence, completion constraints, and invalid-submission validation.
-- Browser-generated export preview. This cloud browser did not expose a download completion event for Blob saves; actual file download needs verification in the published browser. A visible export dialog keeps file contents available for manual copying.
+- Browser-generated export preview, actual progress-file download, and clipboard copy on the live HTTPS site.
+- Mobile navigation at a 390px viewport, including accessible open and close behavior.
+- GitHub repository creation, private learning repository visibility, and successful Pages build and deployment.
+- Live home page, lesson navigation, and default learning repository configuration.
 
-Live repository creation, GitHub submissions, and Pages deployment remain unverified until authentication and publication are completed.
+No real assignment has been submitted or graded. Submission links and issue templates are provided; the learner completes the GitHub submission and records its URL. Progress remains local to the browser until exported, and completion is explicitly self-assessed.
